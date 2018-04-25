@@ -41,3 +41,18 @@ width: 50%;
   font-size: 30px;
   text-align: center;
 }
+
+.photos{width:300px;height:300px;
+}
+
+#grid-container{
+   grid-template:500px 500px 500px/500px 500px 500px;
+    display:grid;
+    width:1000;
+    height:1000;
+    
+}
+.grid-item{
+ width:500px;
+ height:500px;
+}
