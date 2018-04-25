@@ -13,22 +13,29 @@
     <a href="funpage.html">Fun Page</a>
     
 </header>
-    <div class="row">
-        <img class=home img src="IMG_0254.JPG">
-        <img class=home img src="IMG_0070.JPG">
-    <div class="box a"></div>
-    <img src="IMG_0254.JPG">
-    <div class="box b"></div>
-    <img src="IMG_0070.JPG">
-    <div class="box c"></div>
-    <div class="box d"></div>
-    <div class="box e"></div>
-    <div class="box f"></div>
-  </div>
+     <style>
+.grid-container {
+  grid-row-gap: 50px;
+  grid-column-gap: 20px ;
+  display: grid;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+    <body>
+    
+    <div id="grid-container">
+    <div class="grid-item"><img src="IMG_0254.JPG" class="photos"/></div>
+    <div class="grid-item"><img src="IMG_0070.JPG" class="photos"/></div>
+    <div class="grid-item"><img src="IMG-0341.PNG" class="photos"/></div>
+    <div class="grid-item"><img src="IMG-0602.JPG" class="photos"/></div>
+    <div class="grid-item"><img src="IMG-1228.JPG" class="photos"/></div>
+    <div class="grid-item"><img src="IMG-7233.JPG" class="photos"/></div>
+    </div>
 
   </body>
-
-
-<p> Hello there! I am a student at Math and Science College Prep and I'm in the 9th grade. In MSCP, we take STEM classes. STEM stands for Science, Technology, Engineering and Math. Our school has elective classes which are Engineering, Biomedical Science and Computer Science </p>
-
 </html>
