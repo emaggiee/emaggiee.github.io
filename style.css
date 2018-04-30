@@ -41,7 +41,7 @@ p{
 }
 
 #grid-container{
-   grid-template:600px 600px 600px/600px 600px 600px;
+   grid-template:500px 500px 500px/500px 500px 500px;
     display:grid;
     width:1000;
     height:1000;
